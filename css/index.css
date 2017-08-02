@@ -1,0 +1,48 @@
+html {
+    background-color: black;
+}
+
+#backpic {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: 10;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#content {
+    width: 60%;
+    margin-top: 25%;
+    margin-left: 20%;
+    font-size: 22px;
+    text-align: center;
+    color: #3e2900;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+}
+
+#options {
+    margin-top: 100px;
+    height: 40%;
+}
+
+#BoxTwo {
+    margin-top: 50px;
+}
+
+#BoxThree {
+    margin-top: 50px;
+}
+
+#BoxFour {
+    margin-top: 50px;
+}
