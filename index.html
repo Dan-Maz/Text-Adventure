@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="">    
-
+<html lang="">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,33 +7,39 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 
-<body>
+<body> 
+    <img src="scroll.png" id="backpic">
 
-    <img src="scroll.png" id="backpic">    
-
-<!--    Options Wrapper-->
+    <!--    Options Wrapper-->
     <div id="content">
-<!--        <h1>Title</h1>-->
+        <p id="prev"></p>
+        <p id="main">You wake up in a deserted forest clearing with no idea where you are or how you got there.</p>
+        <p id="question">What do you do?</p>
+        <p></p>
 
-        <p>You wake up in a deserted forest clearing with no idea where you are or how you got there.</p>
-        <p>What do you do?</p>
         <div id="options">
-<!--            Option 1-->
-            <div id="BoxOne">
-                <a href="1-1.html">
-                    <p id="optionText">Explore the clearing.</p>
-                </a>
+            <!--Option 1-->
+            <div id="BoxOne" onclick="myFunction()">
+                <p id="optionText1">Explore the clearing.</p>
             </div>
-<!--            Option 2-->
+            <!--Option 2-->
             <div id="BoxTwo">
-                <a href="1-2.html">
-                    <p id="optionText">Head into the forest.</p>
-                </a>
+                <p id="optionText2">Leave and enter the forest.</p>
+            </div>
+            <!--Option 3-->
+            <div id="BoxThree">
+                <p id="optionText3"></p>
+            </div>
+            <!--Option 4-->
+            <div id="BoxFour">
+                <p id="optionText4"></p>
             </div>
         </div>
     </div>
-<!--End of Options Wrapper-->
-    <script src=""></script>
+    <div id="Story">
+    
+    </div>
+    <!--End of Options Wrapper-->
 </body>
-
 </html>
+<link rel="stylesheet" href=""><script src=""></script>

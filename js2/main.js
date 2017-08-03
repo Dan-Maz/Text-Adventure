@@ -1,20 +1,4 @@
-document.addEventListener("DOMContentLoaded", start)
 
-function start(){
-
- startbtn.addEventListener("click", adven);
-
-function adven()
-{
-
- var weaponname;
-  document.getElementById('start').innerText = 'You wake up in a deserted forest clearing with no idea where you are or how you got there.';
-
-  setTimeout(delay, 5000);
-
-function delay()
-  {
-  var ch1 = prompt('You wake up in a deserted forest clearing. What do you do? Do you EXPLORE the clearing or LEAVE and enter the forest?').toLowerCase();
 
 
 ///////////////////////////EXPLORE OR LEAVE CLEARING/////////////////////////
